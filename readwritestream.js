@@ -9,3 +9,6 @@ const writestream = fs.createWriteStream(__dirname+"/displaycontext.html");
     console.log("new chunk arrived:");
     writestream.write(chunk);
  });
+
+ //this can also be done using pipes
+ readstream.pipe(writestream);
