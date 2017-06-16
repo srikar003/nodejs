@@ -8,7 +8,7 @@ const server = http.createServer((req,res) =>{
     res.writeHead(200,{'Content-type':'text/html'});
 	
     //creating a readstream
-    const readstream = fs.createReadStream(__dirname+"/contenttext.txt",'utf8');
+    const readstream = fs.createReadStream(__dirname+"/htmlpage.html",'utf8');
     //add this stream to response using pipe
     readstream.pipe(res);
     

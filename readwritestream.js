@@ -11,4 +11,4 @@ const writestream = fs.createWriteStream(__dirname+"/displaycontext.txt");
  });
 
  //this can also be done using pipes
- readstream.pipe(writestream);
+ //readstream.pipe(writestream);
