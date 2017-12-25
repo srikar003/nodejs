@@ -1,6 +1,6 @@
 const fs = require('fs');
 
-//file using asynchronous feature
+//file using synchronous feature
 console.log(fs.readFileSync('context.html','utf8'));
 
 //the below statement is removing the content in html file and adding the provided data
@@ -12,7 +12,7 @@ fs.writeFileSync('display.txt',"content to be displayed");
 console.log(fs.readFileSync('display.txt','utf8'));
 
 
-//file using synchronous feature 
+//file using Asynchronous feature
 fs.readFile('context.html','utf8',(err,data)=>{
     console.log(data);
 });
