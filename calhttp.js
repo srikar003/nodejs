@@ -1,6 +1,6 @@
 const http = require("http")
 const host = "127.0.0.1"
-const port = 3000
+const port = 3200
 const server=http.createServer( (request,response) =>{
 	console.log(request.url);
   [_,op, a, b] = request.url.split("/");
@@ -17,6 +17,9 @@ const server=http.createServer( (request,response) =>{
  }
   else if(op=="div"){
 	 result=a/b;
+ }
+ else{
+	 result=0;
  }
  response.statusCode = 200;
  response.setHeader('Content-type','text/plain');
