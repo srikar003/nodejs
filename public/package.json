@@ -1,0 +1,27 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "learning node",
+  "main": "servercreation.js",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "curl": "^0.1.4",
+    "express": "^4.16.2",
+    "postman": "^0.2.0",
+    "shuffle-array": "^1.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/srikar003/nodejs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/srikar003/nodejs/issues"
+  },
+  "homepage": "https://github.com/srikar003/nodejs#readme"
+}
