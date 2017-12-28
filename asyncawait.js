@@ -1,4 +1,4 @@
-'use strict';
+ 'use strict';
 
 var main = function () {
     var _ref = _asyncToGenerator(regeneratorRuntime.mark(function _callee() {
