@@ -19,7 +19,7 @@ promise.then(function(fromResolve){
 
 	//setting header and status code
 	res.statusCode = 200;
-	res.setHeader('Content-type','type/text');
+	res.setHeader('Content-type','text/text');
 
 	//another way of setting status code and header
 	//res.writeHead(200,{'Content-type':'text/html'});
