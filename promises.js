@@ -3,7 +3,7 @@ var fs = require('fs');
 var http=require('http');
 const hostname = '127.0.0.1';
 const port = "3200";
- 
+
 var promise = new Promise(function (resolve, reject) {
   fs.readFile('displaycontext.txt','utf8',function(err,data){
     if (err){
@@ -19,7 +19,7 @@ promise.then(function(fromResolve){
 
 	//setting header and status code
 	res.statusCode = 200;
-	res.setHeader('Content-type','text/text');
+	res.setHeader('Content-type','type/text');
 
 	//another way of setting status code and header
 	//res.writeHead(200,{'Content-type':'text/html'});
